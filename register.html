@@ -1,0 +1,112 @@
+ <!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="file:///C:/Users/USER/Desktop/practice/styles.css">
+		<title>Register</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="file:///C:/Users/USER/Desktop/practice/index.html">
+				<h3>Back to HomePage</h3>
+				</a>
+			</nav>
+		</header>
+		<section>
+			<form style="background:teal; padding-left:20px;border-radius:5px" method="GET">
+			<!-- Note the "Method" attribute of "Form" is use to determine the way the server collects the submited information submitted in the form. This could be in two ways the "GET" or "POST". GET displays the form respponse on the address bar while POST doesn't, so it's avisable to use POST attribute in Form-->  
+				<h3 style="color:white;">Register</h3>
+				First Name<input type="text" name="firstname" placeholder="e.g Jane" required> <br><br>
+				Last Name<input type="text" name="lastname" placeholder="Doe" required><br><br>
+				Gender<br>
+				 <input type="radio" name="gender" value="Male">Male <br>
+				 <input type="radio" name="gender" value="Female">Female<br>
+				 <input type="radio" name="gender" value="Other">Prefare not to say<br><br>
+				 Birthday <input type="date" name="birthday" required><br><br>
+				 Tel <input type="tel" name="tel" placeholder="08012345678" required><br><br>
+				Email<input type="email" name="email" placeholder="name@dormain.com" required ><br><br>
+				Password <input type="password" name="password" min="15"><br><br>
+				Wallet chain 
+				<select name="chain" required>
+					<option value="eth">Eth</option>
+					<option value="bsc" selected>BSC</option>
+					<option value="polygon">Polygon</option>
+					<option value="sol">Solona</option>
+					<option value="icp">ICP</option>
+					<option value="arb">Arbitrum</option>
+					<option value="optimism">Optimism</option>
+					<option value="others">Ohers</option>	
+				</select><br><br>
+				Wallet Address
+				 <input type="text" placeholder="0xtyyohl25478965k4hj3eDDD" name="walletaddress" required><br><br>
+
+				Submit <input type="submit" value="Register"> 
+				Reset <input type="reset" name="reset">
+
+			</form>
+			
+		</section>
+		<div class="footer">
+			<footer> <p>Web made with love</p>
+				<a mailto:arogundadepeter@gmail.com>mail me </a>
+			</footer>
+		</div>	
+	</body>
+</html>
+<footer style="color: yellowgreen;background-color: darkred;">Check your email after registering</footer>
+
+?
+firstna me=Peter
+&lastname=Arogundade
+&birthday=1984-09-19
+&tel=08035446011
+&email=arogundadepeter%40gmail.com
+&password=12345678910
+
+?
+firstname=Peter
+&lastname=Arogundade
+&gender=on
+&birthday=2022-09-08
+&tel=08035446011
+&email=arogundadepeter%40gmail.com
+&password=kvhkjnfjkj656879
+
+
+
+?
+firstname=Peter
+&lastname=Arogundade
+&gender=on
+&birthday=2022-08-30
+&tel=08035446011
+&email=arogundadepeter%40gmail.com
+&password=hgdgg
+
+
+
+
+?
+firstname=Peter
+&lastname=Arogundade
+&gender=Male
+&birthday=2022-09-06
+&tel=08035446011
+&email=arogundadepeter%40gmail.com
+&password=lkghkgk+hyoi
+
+
+?
+firstname=Peter
+&lastname=Arogundade
+&gender=Male
+&birthday=2022-08-30
+&tel=08035446011
+&email=arogundadepeter%40gmail.com
+&password=fgkkytds
+
+
+?firstname=Peter&lastname=Arogundade&birthday=2022-08-29&tel=08035446011&email=arogundadepeter%40gmail.com&password=vghvhjb+hl
+&walletaddress=0xsfdjfvhjbkj

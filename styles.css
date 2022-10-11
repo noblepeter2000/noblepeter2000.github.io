@@ -1,0 +1,70 @@
+/*styles syntax is:
+selector{
+	property: value;
+}
+ */
+
+body{background-image:url(file:///C:/Users/USER/Desktop/practice/mailchimp-lAx4E6Gl06s-unsplash.jpg);
+	 background-size: cover;
+}
+html, body{
+	height: 100%;
+	margin: 0;
+}
+a {
+	width: 30px;
+}
+h1 {
+	color: cadetblue; 
+	text-align: left;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	}
+
+.nft {
+	color: yellowgreen; 
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	border-bottom: 4px solid pink;
+	border-right: 4px solid pink;
+	border-top: 4px solid pink;
+	border-color: pink;
+	width: 250px;
+	font-size: 3em;
+	;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	
+}
+ul{
+	text-align: center;
+}
+
+.genpix{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+img{
+	width: 200px;
+	height: 120px;
+	margin: 10px;
+	transition: all 3s;
+}
+img:hover{
+	transform: scale(1.1);
+}
+.footer{
+	color:whitesmoke;
+	background-color: darkred;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	position: fixed;
+	text-align: center;
+
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="file:///C:/Users/USER/Desktop/practice/styles.css">
+		<title>Contact Form</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="file:///C:/Users/USER/Desktop/practice/index.html">
+					<h3>Back to HomePage</h3>
+				</a>
+				
+			</nav>
+ 		</header>
+ 		<section>
+ 			<h2>Contact Form</h2>
+			<form style="background:teal; padding-left:20px;border-radius:10px">
+				<h3 style="color:white;">Contact Us</h3>
+				<label for="type">type</label>
+				<select id="type">
+				<option>General</option>
+				<option>Payment Issue</option>
+				<option>Other</option>
+				</select><br><br>
+				<label for="name">Name</label>
+				<input type="text" id="name" placeholder="Firstname Lastname"><br><br>
+				<label for="email">Email</label>
+				<input type="email" id="email" placeholder="name@domain.com"><br><br>
+				<label for="tel">Telephone</label>
+				<input type="tel" id="tel" placeholder="+2348012345678"><br><br>
+				<label for="message">Message</label><br>
+				<textarea placeholder="Type your message here"></textarea><br><br>
+				You would be reached out to soon. kindly select the timezone you belong to:<br>
+				<input type="radio" value="utc+2" name="timezone"> UTC+2<br><br>
+				<input type="radio" value="central" name="timezone"> Central Time Zone<br><br>
+				<input type="radio" value="easterneuropean" name="timezone"> Eastern European Time Zone<br><br>
+				<input type="radio" value="easterstandard" name="timezone"> Easter Standard Time<br><br>
+				<input type="button" value="Send" style="border-radius:5px; border:none;">
+				<input type="reset" value="Reset" style="border-radius:10px; border:none;"><br><br>
+			</form>
+		</section>
+		<div class="footer">
+			<footer> <p>Web made with love</p>
+				<a mailto:arogundadepeter@gmail.com>mail me </a>
+			</footer>
+		</div>	
+	</body>
+</html>
